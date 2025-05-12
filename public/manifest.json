@@ -1,6 +1,6 @@
 {
-  "name": "AESPT Application",
-  "short_name": "AESPT",
+  "name": "RED10X Application",
+  "short_name": "RED10X",
   "description": "Invoice Management System",
   "start_url": "/",
   "display": "standalone",

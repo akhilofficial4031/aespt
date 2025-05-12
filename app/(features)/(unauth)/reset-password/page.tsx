@@ -257,7 +257,7 @@ export default function ResetPasswordPage() {
               />
             </svg>
           </div>
-          <h1 className="mb-2 text-3xl font-bold text-white">AESPT</h1>
+          <h1 className="mb-2 text-3xl font-bold text-white">RED10X</h1>
           <p className="text-sm text-blue-200">Database Management System</p>
         </motion.div>
       </div>

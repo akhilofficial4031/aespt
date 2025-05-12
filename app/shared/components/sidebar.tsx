@@ -74,9 +74,9 @@ export default function Sidebar() {
           {!isCollapsed && (
             <div className="flex items-center pb-[4px]">
               <span className="bg-gradient-to-r from-red-600 to-blue-600 bg-clip-text text-2xl font-bold text-transparent">
-                AESPT
+                RED10X
               </span>
-              <span className="ml-2 text-sm text-gray-500">Admin</span>
+              <span className="ml-2 text-sm text-gray-500">Billing</span>
             </div>
           )}
           {/* <button
@@ -124,7 +124,7 @@ export default function Sidebar() {
         <div className="border-t border-gray-200 p-4">
           {!isCollapsed && (
             <div className="text-xs text-gray-500">
-              <p>© 2025 AESPT</p>
+              <p>© 2025 RED10X</p>
               <p>Wholesale Spare Parts</p>
             </div>
           )}

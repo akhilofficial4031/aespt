@@ -4,14 +4,14 @@ import { Inter } from 'next/font/google';
 import { AuthProvider } from '@/lib/hooks/useAuth';
 
 export const metadata = {
-  metadataBase: new URL('https://aespt.com'),
-  title: 'AESPT - Invoice Management',
-  description: 'Invoice management application for AESPT firm',
+  metadataBase: new URL('https://red10x.com'),
+  title: 'RED10X - Invoice Management',
+  description: 'Invoice management application',
   manifest: '/manifest.json',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
-    title: 'AESPT Invoice',
+    title: 'RED10X Invoice',
   },
 };
 

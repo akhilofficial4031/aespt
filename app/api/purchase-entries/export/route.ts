@@ -102,7 +102,7 @@ export async function GET(request: NextRequest) {
 
     // Create Excel workbook and worksheet
     const workbook = new Workbook();
-    workbook.creator = 'AESPT System';
+    workbook.creator = 'RED10X System';
     workbook.lastModifiedBy = payload.email || 'User';
     workbook.created = new Date();
     workbook.modified = new Date();

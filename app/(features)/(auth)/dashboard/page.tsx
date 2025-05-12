@@ -201,7 +201,7 @@ export default function Dashboard() {
         {/* Page title */}
         <motion.div variants={itemVariants} className="mb-8">
           <h1 className="text-2xl font-bold text-gray-800">Dashboard</h1>
-          <p className="text-gray-500">Welcome to AESPT Admin Dashboard</p>
+          <p className="text-gray-500">Welcome to Admin Dashboard</p>
         </motion.div>
 
         {/* Stats cards */}
