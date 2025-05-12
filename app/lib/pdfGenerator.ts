@@ -224,10 +224,8 @@ export async function generateInvoicePDF(invoiceData: InvoiceData): Promise<stri
         </div>
         <div style="width: 85%; background-color: #ffffff; padding: 20px; display: flex; justify-content: space-between; align-items: center;">
           <div>
-            <h3 style="margin: 0; font-size: 16px">Arabian Auto Equipments and Parts Trading (FZC)</h3>
-            <p style="margin: 5px 0 0; font-size: 12px; font-weight: bold">
-              العربية لتجارة معدات وقطع غيار السيارات (ش.م.ح)
-            </p>
+            <h3 style="margin: 0; font-size: 16px">RED10X </h3>
+            
           </div>
           <div style="text-align: right; font-size: 12px">
             ${
@@ -431,7 +429,7 @@ export async function generateInvoicePDF(invoiceData: InvoiceData): Promise<stri
           </div>
           <div>
             <div style="border-top: 1px dotted #999; width: 200px; text-align: center; padding-top: 5px; font-size: 12px; color: #666;">
-              For Arabian Auto Equipments and Parts Trading (FZC)
+              For RED10X
             </div>
           </div>
         </div>
@@ -600,10 +598,7 @@ export async function generatePurchasePDF(purchaseData: PurchaseData): Promise<s
         </div>
         <div style="width: 85%; background-color: #ffffff; padding: 20px; display: flex; justify-content: space-between; align-items: center;">
           <div>
-            <h3 style="margin: 0; font-size: 16px">Arabian Auto Equipments and Parts Trading (FZC)</h3>
-            <p style="margin: 5px 0 0; font-size: 12px; font-weight: bold">
-              العربية لتجارة معدات وقطع غيار السيارات (ش.م.ح)
-            </p>
+            <h3 style="margin: 0; font-size: 16px">RED10X</h3>
           </div>
           <div style="text-align: right; font-size: 12px">
             ${

@@ -28,7 +28,7 @@ export default function LoginPage() {
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <h1 className="mb-2 text-3xl font-bold text-white">AESPT Billing</h1>
+          <h1 className="mb-2 text-3xl font-bold text-white">RTX - Billing</h1>
         </motion.div>
       </div>
 

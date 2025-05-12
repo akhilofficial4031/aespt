@@ -1,10 +1,10 @@
-CREATE TYPE "public"."discount_type" AS ENUM('PERCENTAGE', 'FIXED', 'NONE');--> statement-breakpoint
-CREATE TYPE "public"."invoice_stage" AS ENUM('SALE', 'PROFORMA', 'QUOTATION');--> statement-breakpoint
-CREATE TYPE "public"."tax_type" AS ENUM('VAT', 'GST', 'NONE');--> statement-breakpoint
-CREATE TYPE "public"."payment_method" AS ENUM('CASH', 'CREDIT', 'BANK_TRANSFER', 'CHEQUE', 'ONLINE');--> statement-breakpoint
-CREATE TYPE "public"."payment_status" AS ENUM('UNPAID', 'PARTIALLY_PAID', 'PAID');--> statement-breakpoint
-CREATE TYPE "public"."purchase_tax_type" AS ENUM('VAT', 'GST', 'NONE');--> statement-breakpoint
-CREATE TYPE "public"."purchase_type" AS ENUM('TAX', 'DELIVERY', 'PROFORMA', 'QUOTATION');--> statement-breakpoint
+-- CREATE TYPE "public"."discount_type" AS ENUM('PERCENTAGE', 'FIXED', 'NONE');--> statement-breakpoint
+-- CREATE TYPE "public"."invoice_stage" AS ENUM('SALE', 'PROFORMA', 'QUOTATION');--> statement-breakpoint
+-- CREATE TYPE "public"."tax_type" AS ENUM('VAT', 'GST', 'NONE');--> statement-breakpoint
+-- CREATE TYPE "public"."payment_method" AS ENUM('CASH', 'CREDIT', 'BANK_TRANSFER', 'CHEQUE', 'ONLINE');--> statement-breakpoint
+-- CREATE TYPE "public"."payment_status" AS ENUM('UNPAID', 'PARTIALLY_PAID', 'PAID');--> statement-breakpoint
+-- CREATE TYPE "public"."purchase_tax_type" AS ENUM('VAT', 'GST', 'NONE');--> statement-breakpoint
+-- CREATE TYPE "public"."purchase_type" AS ENUM('TAX', 'DELIVERY', 'PROFORMA', 'QUOTATION');--> statement-breakpoint
 CREATE TABLE "addresses" (
 	"id" serial PRIMARY KEY NOT NULL,
 	"type" varchar(50) NOT NULL,
