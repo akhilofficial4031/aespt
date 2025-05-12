@@ -1,0 +1,22 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "yarn build",
+  "devCommand": "yarn dev",
+  "installCommand": "yarn install",
+  "framework": "nextjs",
+  "functions": {
+    "app/api/invoices/pdf/**/*.ts": {
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  },
+  "crons": [],
+  "github": {
+    "silent": true
+  },
+  "build": {
+    "env": {
+      "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD": "true"
+    }
+  }
+}
